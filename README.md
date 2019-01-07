@@ -49,6 +49,24 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] Welcome To The Course
   - [x] Project Files & Questions
   - [x] Visual Studio Code Setup
+- [ ] JavaScript Language Fundamentals
+  - [ ] Section Intro & File Setup
+  - [ ] Using The Console
+  - [ ] Variables - var, let & const
+  - [ ] Data Types in JavaScript
+  - [ ] Type Conversion
+  - [ ] Numbers & The Math Object
+  - [ ] String Methods & Concatenation
+  - [ ] Template Literals
+  - [ ] Arrays & Array Methods
+  - [ ] Object Literals
+  - [ ] Dates & Times
+  - [ ] If Statements & Comparison Operators
+  - [ ] Switches
+  - [ ] Function Declarations & Expressions
+  - [ ] General Loops
+  - [ ] A Look At The Window Object
+  - [ ] Block Scope With let & const
 
 <h2 align="center">License</h2>
 
