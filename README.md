@@ -29,7 +29,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
         <code>pretty</code>
       </td>
       <td>
-        <code>Formatting code with Prettier</code>
+        Formatting code with Prettier
       </td>
     </tr>
     <tr>
@@ -37,7 +37,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
         <code>watch</code>
       </td>
       <td>
-        <code>Starting development server with Serve</code>
+        Starting development server with Serve
       </td>
     </tr>
   </tbody>
