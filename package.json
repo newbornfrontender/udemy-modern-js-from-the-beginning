@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "pretty": "prettier --write *.{json,js}"
+    "pretty": "prettier --write *.{json,js}",
+    "watch": "serve"
   },
   "devDependencies": {
     "prettier": "^1.15.3",
