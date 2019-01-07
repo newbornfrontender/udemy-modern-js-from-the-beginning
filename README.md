@@ -50,7 +50,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] Project Files & Questions
   - [x] Visual Studio Code Setup
 - [ ] JavaScript Language Fundamentals
-  - [ ] Section Intro & File Setup
+  - [x] Section Intro & File Setup
   - [ ] Using The Console
   - [ ] Variables - var, let & const
   - [ ] Data Types in JavaScript
