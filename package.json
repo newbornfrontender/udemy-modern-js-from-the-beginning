@@ -6,6 +6,9 @@
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "pretty": "prettier --write *.{json,js}"
+  },
   "devDependencies": {
     "prettier": "^1.15.3"
   }
