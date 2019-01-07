@@ -48,7 +48,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
 - [x] Intro & Getting Started
   - [x] Welcome To The Course
   - [x] Project Files & Questions
-  - [ ] Project Files & Questions
+  - [ ] Visual Studio Code Setup
 
 <h2 align="center">License</h2>
 
