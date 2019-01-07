@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "pretty": "prettier --write *.{js,json,md}",
+    "pretty": "prettier --write *.{html,js,json,md}",
     "watch": "serve"
   },
   "devDependencies": {
