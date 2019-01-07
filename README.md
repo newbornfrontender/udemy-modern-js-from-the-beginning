@@ -32,6 +32,14 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
         <code>Formatting code with Prettier</code>
       </td>
     </tr>
+    <tr>
+      <td>
+        <code>watch</code>
+      </td>
+      <td>
+        <code>Starting development server with Serve</code>
+      </td>
+    </tr>
   </tbody>
 </table>
 
