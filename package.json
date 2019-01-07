@@ -1,0 +1,9 @@
+{
+  "name": "udemy-modern-js-from-the-beginning",
+  "version": "1.0.0",
+  "description": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
+  "repository": "https://github.com/newbornfrontender/udemy-modern-js-from-the-beginning.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
