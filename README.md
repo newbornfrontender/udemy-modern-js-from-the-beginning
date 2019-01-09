@@ -51,7 +51,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] Visual Studio Code Setup
 - [ ] JavaScript Language Fundamentals:
   - [x] Section Intro & File Setup
-  - [ ] Using The Console
+  - [x] Using The Console
   - [ ] Variables - var, let & const
   - [ ] Data Types in JavaScript
   - [ ] Type Conversion
