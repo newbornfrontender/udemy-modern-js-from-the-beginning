@@ -45,11 +45,11 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
 
 <h2 align="center">Completed lectures</h2>
 
-- [x] Intro & Getting Started
+- [x] Intro & Getting Started:
   - [x] Welcome To The Course
   - [x] Project Files & Questions
   - [x] Visual Studio Code Setup
-- [ ] JavaScript Language Fundamentals
+- [ ] JavaScript Language Fundamentals:
   - [x] Section Intro & File Setup
   - [ ] Using The Console
   - [ ] Variables - var, let & const
