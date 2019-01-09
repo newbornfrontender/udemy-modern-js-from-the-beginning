@@ -52,7 +52,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
 - [ ] JavaScript Language Fundamentals:
   - [x] Section Intro & File Setup
   - [x] Using The Console
-  - [ ] Variables - var, let & const
+  - [x] Variables - var, let & const
   - [ ] Data Types in JavaScript
   - [ ] Type Conversion
   - [ ] Numbers & The Math Object
