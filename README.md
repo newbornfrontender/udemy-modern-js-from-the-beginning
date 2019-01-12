@@ -54,7 +54,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] Using The Console
   - [x] Variables - var, let & const
   - [x] Data Types in JavaScript
-  - [ ] Type Conversion
+  - [x] Type Conversion
   - [ ] Numbers & The Math Object
   - [ ] String Methods & Concatenation
   - [ ] Template Literals
