@@ -1,22 +1,47 @@
-const num1 = 100;
-const num2 = 40;
+const firstName = 'William';
+const lastName = 'Johnson';
+const age = 37;
+const str = 'Hello there my name is Brad';
+const tags = 'web development, web design, programming';
 
 let val;
 
-val = Math.PI;
-val = Math.E;
-val = Math.round(2.5);
-val = Math.ceil(2.4);
-val = Math.floor(2.9);
-val = Math.sqrt(144);
-val = Math.abs(-11);
-val = Math.pow(2, 3);
-val = Math.min(2, 11, 63, 247, -3);
-val = Math.max(2, 11, 63, 247, -3);
-val = Math.random();
+// Append
+val = 'Brad';
+val += ' Traversy';
 
-val = Math.random() * 20;
-val = (Math.random() * 20).toFixed();
-val = Math.floor(Math.random() * 20 + 1);
+// Concat
+val = firstName.concat(' ', lastName);
+
+// Change case
+val = firstName.toUpperCase();
+val = firstName.toLocaleLowerCase();
+
+// indexOf()
+val = firstName.indexOf('l');
+val = firstName.lastIndexOf('l');
+
+// charAt()
+val = firstName.charAt('2');
+
+// Get last char
+val = firstName.charAt(firstName.length - 1);
+
+// Substring
+val = firstName.substring(0, 4);
+
+// slice()
+val = firstName.slice(0, 4);
+val = firstName.slice(-3);
+
+// split()
+val = str.split(' ');
+val = tags.split(', ');
+
+// replace()
+val = str.replace('Brad', 'Jack');
+
+// includes()
+val = str.includes('Hello');
 
 console.log(val);
