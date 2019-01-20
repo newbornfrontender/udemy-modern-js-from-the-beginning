@@ -1,47 +1,38 @@
-const firstName = 'William';
-const lastName = 'Johnson';
-const age = 37;
-const str = 'Hello there my name is Brad';
-const tags = 'web development, web design, programming';
+const name = 'John';
+const age = 31;
+const job = 'Web Developer';
+const city = 'Miami';
 
-let val;
+let html;
 
-// Append
-val = 'Brad';
-val += ' Traversy';
+// Without template strings (es5)
+// prettier-ignore
+html = '<ul><li>Name: ' + name + '</li><li>Age: ' + age + '</li><li>Job: ' + job + '</li><li>City: ' + city + '</li></ul>';
 
-// Concat
-val = firstName.concat(' ', lastName);
+// prettier-ignore
+html = '<ul>' +
+         '<li>Name: ' + name + '</li>' +
+         '<li>Age: ' + age + '</li>' +
+         '<li>Job: ' + job + '</li>' +
+         '<li>City: ' + city + '</li>' +
+       '</ul>';
 
-// Change case
-val = firstName.toUpperCase();
-val = firstName.toLocaleLowerCase();
+// With template strings (es6)
 
-// indexOf()
-val = firstName.indexOf('l');
-val = firstName.lastIndexOf('l');
+function hello() {
+  return 'Hello world!';
+}
 
-// charAt()
-val = firstName.charAt('2');
+html = `
+<ul>
+  <li>Name: ${name}</li>
+  <li>Age: ${age}</li>
+  <li>Job: ${job}</li>
+  <li>City: ${city}</li>
+  <li>${2 + 2}</li>
+  <li>${hello()}</li>
+  <li>${age > 30 ? 'Over 30' : 'Under 30'}</li>
+</ul>
+`;
 
-// Get last char
-val = firstName.charAt(firstName.length - 1);
-
-// Substring
-val = firstName.substring(0, 4);
-
-// slice()
-val = firstName.slice(0, 4);
-val = firstName.slice(-3);
-
-// split()
-val = str.split(' ');
-val = tags.split(', ');
-
-// replace()
-val = str.replace('Brad', 'Jack');
-
-// includes()
-val = str.includes('Hello');
-
-console.log(val);
+document.body.innerHTML = html;

@@ -57,7 +57,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] Type Conversion
   - [x] Numbers & The Math Object
   - [x] String Methods & Concatenation
-  - [ ] Template Literals
+  - [x] Template Literals
   - [ ] Arrays & Array Methods
   - [ ] Object Literals
   - [ ] Dates & Times
