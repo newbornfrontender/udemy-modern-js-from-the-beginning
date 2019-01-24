@@ -59,7 +59,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] String Methods & Concatenation
   - [x] Template Literals
   - [x] Arrays & Array Methods
-  - [ ] Object Literals
+  - [x] Object Literals
   - [ ] Dates & Times
   - [ ] If Statements & Comparison Operators
   - [ ] Switches
