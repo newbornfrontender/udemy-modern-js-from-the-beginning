@@ -6,35 +6,37 @@ const preson = {
   hobbies: ['music', 'sports'],
   addres: {
     city: 'Miami',
-    state: 'FL'
+    state: 'FL',
   },
   getBirthday() {
-    return 2019 - this.age
-  }
-}
+    return 2019 - this.age;
+  },
+};
 
-let val
+let val;
 
-val = preson
+val = preson;
 
 // Get specific value
-val = preson.firstName
-val = preson['lastName']
-val = preson.age
-val = preson.hobbies
-val = preson.hobbies[0]
-val = preson.addres.state
-val = preson.getBirthday()
+val = preson.firstName;
+val = preson['lastName'];
+val = preson.age;
+val = preson.hobbies;
+val = preson.hobbies[0];
+val = preson.addres.state;
+val = preson.getBirthday();
 
-console.log(val)
+console.log(val);
 
-const people = [{
-  name: 'John',
-  age: 30
-},
-{
-  name: 'Mike',
-  age: 26
-}]
+const people = [
+  {
+    name: 'John',
+    age: 30,
+  },
+  {
+    name: 'Mike',
+    age: 26,
+  },
+];
 
-people.map(({name, age}) => console.log(`name: ${name}, age: ${age}`))
+people.map(({ name, age }) => console.log(`name: ${name}, age: ${age}`));
