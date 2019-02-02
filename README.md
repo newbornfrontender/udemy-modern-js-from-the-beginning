@@ -60,7 +60,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] Template Literals
   - [x] Arrays & Array Methods
   - [x] Object Literals
-  - [ ] Dates & Times
+  - [x] Dates & Times
   - [ ] If Statements & Comparison Operators
   - [ ] Switches
   - [ ] Function Declarations & Expressions

@@ -1,42 +1,26 @@
-const preson = {
-  firstName: 'Steve',
-  lastName: 'Smith',
-  age: 30,
-  email: 'steve@aol.com',
-  hobbies: ['music', 'sports'],
-  addres: {
-    city: 'Miami',
-    state: 'FL',
-  },
-  getBirthday() {
-    return 2019 - this.age;
-  },
-};
-
 let val;
 
-val = preson;
+const today = new Date();
+let birthday = new Date('9-10-1981 11:25:00');
 
-// Get specific value
-val = preson.firstName;
-val = preson['lastName'];
-val = preson.age;
-val = preson.hobbies;
-val = preson.hobbies[0];
-val = preson.addres.state;
-val = preson.getBirthday();
+birthday = new Date('September 10 1981');
+birthday = new Date('9/10/1981');
 
-console.log(val);
+val = today.getMonth();
+val = today.getDate();
+val = today.getDay();
+val = today.getFullYear();
+val = today.getHours();
+val = today.getMinutes();
+val = today.getSeconds();
+val = today.getMilliseconds();
+val = today.getTime();
 
-const people = [
-  {
-    name: 'John',
-    age: 30,
-  },
-  {
-    name: 'Mike',
-    age: 26,
-  },
-];
+birthday.setMonth(2);
+birthday.setDate(12);
+birthday.setFullYear(1985);
+birthday.setHours(3);
+birthday.setMinutes(30);
+birthday.setSeconds(25);
 
-people.map(({ name, age }) => console.log(`name: ${name}, age: ${age}`));
+console.log(birthday);
