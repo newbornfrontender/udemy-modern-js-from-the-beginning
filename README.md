@@ -61,7 +61,7 @@ Learn and build projects with pure JavaScript (No frameworks or libraries)
   - [x] Arrays & Array Methods
   - [x] Object Literals
   - [x] Dates & Times
-  - [ ] If Statements & Comparison Operators
+  - [x] If Statements & Comparison Operators
   - [ ] Switches
   - [ ] Function Declarations & Expressions
   - [ ] General Loops
