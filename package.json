@@ -11,7 +11,7 @@
     "watch": "serve"
   },
   "devDependencies": {
-    "prettier": "1.16.4",
+    "prettier": "1.19.1",
     "serve": "11.0.0"
   }
 }
